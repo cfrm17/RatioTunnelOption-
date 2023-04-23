@@ -2,7 +2,7 @@
 
 A ratio tunnel option offers the contract holder the right either long or short, at a contract maturity, a preset underlying collar. Notional principals and strikes in the collar may be different. In the system, the ratio tunnel option and the underlying collar are strictly European type. The ratio tunnel option model applies analytical close form pricing formulae for vanilla compound options.
 
-A ratio tunnel option is defined as a European vanilla option upon a European collar. It is another special case of a general compound option. We can get a close form pricing formula for the option on collar, or the ratio tunnel option (see https://finpricing.com/lib/EqCallable.html ). Most of results presented in the report (see footnote 1) can be applied here. Therefore, in the following, we just provided some specified information which is necessary in this case.
+A ratio tunnel option is defined as a European vanilla option upon a European collar. It is another special case of a general compound option. We can get a close form pricing formula for the option on collar, or the ratio tunnel option. Most of results presented in the report (see footnote 1) can be applied here. Therefore, in the following, we just provided some specified information which is necessary in this case.
 
 Our test cases cover currency pairs under European and American quoting conventions, and different call-put principal ratios. Risk numbers, including spot rate Delta’s, forward point Delta’s, Gamma’s, Vega’s, and Rho’s, as well as P/L’s have also been tested.
 
@@ -52,5 +52,7 @@ The expectation in the second term on the right side of (7), denoted by I2, can 
 The expectation in the third term on the right side of (7), denoted by I3, is given by
 
  
+Reference:
 
+https://finpricing.com/product.html
 
